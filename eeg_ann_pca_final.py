@@ -55,4 +55,4 @@ from IPython.display import HTML
 def display_link(url, text):
   return HTML(f'<a href="{url}" target="_blank">{text}</a>')
 
-display_link('https://www.kaggle.com/datasets/robikscube/eye-state-classification-eeg-dataset', ' [1] Dataset EEG' '<br>'' <a href="https://chat.openai.com/chat/7142705e-56b1-4a9b-84bb-4c46b97aab47" target="_blank"> [2] Source Code</a> ')
+display_link('https://www.kaggle.com/datasets/robikscube/eye-state-classification-eeg-dataset', ' [1] Dataset EEG' '<br>'' <a href="https://github.com/zhirobyte/Machine-Learning/edit/main/eeg_ann_pca_final.py" target="_blank"> [2] Source Code</a> ')
